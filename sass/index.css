@@ -1,0 +1,15 @@
+/* Formatting for the best website ever! */
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 100%;
+  color: black;
+}
+
+* body {
+  background-color: #FFFFFF;
+}
+
+p {
+  color: red;
+}
+/*# sourceMappingURL=index.css.map */
