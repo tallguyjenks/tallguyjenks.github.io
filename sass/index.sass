@@ -1,13 +1,126 @@
-/* Formatting for the best website ever! */
+//   ____ ____ ____    ____                _   
+//  / ___/ ___/ ___|  |  _ \ ___  ___  ___| |_ 
+// | |   \___ \___ \  | |_) / _ \/ __|/ _ \ __|
+// | |___ ___) |__) | |  _ <  __/\__ \  __/ |_ 
+//  \____|____/____/  |_| \_\___||___/\___|\__|
+//                                             
 
-// Reset all 
-* 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+// html5doctor.com Reset Stylesheet
+// v1.6.1
+// Last Updated: 2010-09-17
+// Author: Richard Clark - http://richclarkdesign.com 
+// Twitter: @rich_clark
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video
+    margin: 0
+    padding: 0
+    border: 0
+    outline: 0
     font-size: 100%
-    color: black
+    vertical-align: baseline
+    background: transparent
 
-    & body
-        background-color: #FFFFFF
+body 
+    line-height: 1
 
-p
-    color: red
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section
+    display: block
+
+nav ul 
+    list-style: none
+
+blockquote, q 
+    quotes: none
+
+blockquote:before, blockquote:after,
+q:before, q:after 
+    content: ''
+    content: none
+
+a 
+    margin: 0
+    padding: 0
+    font-size: 100%
+    vertical-align: baseline
+    background: transparent
+
+/* change colours to suit your needs */
+ins 
+    background-color: #ff9
+    color: #000
+    text-decoration: none
+
+/* change colours to suit your needs */
+mark 
+    background-color: #ff9
+    color: #000 
+    font-style: italic
+    font-weight: bold
+
+del 
+    text-decoration:  line-through
+
+abbr[title], dfn[title] 
+    border-bottom: 1px dotted
+    cursor: help
+
+table 
+    border-collapse: collapse
+    border-spacing: 0
+
+/* change border colour to suit your needs */
+hr 
+    display: block
+    height: 1px
+    border: 0 
+    border-top: 1px solid #cccccc
+    margin: 1em 0
+    padding: 0
+
+input, select 
+    vertical-align: middle
+
+//  ____             _       
+// | __ )  ___  __ _(_)_ __  
+// |  _ \ / _ \/ _` | | '_ \ 
+// | |_) |  __/ (_| | | | | |
+// |____/ \___|\__, |_|_| |_|
+//             |___/         
+//  _____                          _   _   _             
+// |  ___|__  _ __ _ __ ___   __ _| |_| |_(_)_ __   __ _ 
+// | |_ / _ \| '__| '_ ` _ \ / _` | __| __| | '_ \ / _` |
+// |  _| (_) | |  | | | | | | (_| | |_| |_| | | | | (_| |
+// |_|  \___/|_|  |_| |_| |_|\__,_|\__|\__|_|_| |_|\__, |
+//                                                 |___/ 
+
+#navigationBar
+    margin: 0
+    padding: 0 
+    background-color: #333333
+    overflow: hidden
+
+    & a
+        float: left
+        color: #f2f2f2
+        text-align: center
+        padding: 14px 16px
+        text-decoration: none
+        font-size: 17px
+
+        &:hover
+            background-color: #111
+
+        &.active 
+            background-color: #4caf4f
