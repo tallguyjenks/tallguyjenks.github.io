@@ -93,14 +93,14 @@ input, select {
   vertical-align: middle;
 }
 
-#navigationBar {
+nav {
   margin: 0;
   padding: 0;
   background-color: #333333;
   overflow: hidden;
 }
 
-#navigationBar a {
+nav a {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -109,11 +109,15 @@ input, select {
   font-size: 17px;
 }
 
-#navigationBar a:hover {
+nav a:hover {
   background-color: #111;
 }
 
-#navigationBar a.active {
+nav a.active {
   background-color: #4caf4f;
+}
+
+body {
+  background-color: #111111ef;
 }
 /*# sourceMappingURL=index.css.map */
