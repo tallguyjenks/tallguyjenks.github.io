@@ -105,25 +105,244 @@ input, select
 // |_|  \___/|_|  |_| |_| |_|\__,_|\__|\__|_|_| |_|\__, |
 //                                                 |___/ 
 
+$gruvboxColorBackground: #282828 
+$gruvboxColorBackgroundOne: #3c3836 
+$gruvboxColorBackgroundTwo: #504945 
+$gruvboxColorForeground: #ebdbb2
+$gruvboxColorRed: #cc241d
+$gruvboxColorGreen: #98971a 
+$gruvboxColorYellow: #d79921
+$gruvboxColorBlue: #458588
+$gruvboxColorPurple: #b16286
+$gruvboxColorAqua: #689d6a
+$gruvboxColorOrange: #d65d8e
+$gruvboxColorRedHalf: #fb4934
+$gruvboxColorGreenHalf: #b8bb26
+$gruvboxColorYellowHalf: #fabd2f
+$gruvboxColorBlueHalf: #83a598
+$gruvboxColorPurpleHalf: #d3869b
+$gruvboxColorAquaHalf: #8ec07c
+$gruvboxColorOrangeHalf: #fe8019
+
 nav
-    margin: 0
+    margin: -30px 0 0 0
     padding: 0 
-    background-color: #333333
+    background-color: $gruvboxColorBackgroundOne
     overflow: hidden
 
     & a
         float: left
-        color: #f2f2f2
+        color: $gruvboxColorForeground
         text-align: center
         padding: 14px 16px
         text-decoration: none
         font-size: 17px
 
         &:hover
-            background-color: #111
+            background-color: $gruvboxColorAqua
+            color: $gruvboxColorBackgroundTwo
 
         &.active 
-            background-color: #4caf4f
+            background-color: $gruvboxColorGreen
+
+html
+	padding-bottom: 100px
+    color: $gruvboxColorBlue
+	font-family: sans-serif
+    background-color: $gruvboxColorBackground
 
 body
-    background-color: #111111ef
+    background-color: $gruvboxColorBackground
+    max-width: 1050px
+    margin-left: auto
+    margin-right: auto
+    margin-top: 30px
+    overflow: none
+
+/* Blog entry: */
+.entry 
+	padding: 10px
+	border-radius: 0 10px 30px 0
+	margin-bottom: 20px
+	background-color: #2a2a35
+	border-left: 10px solid #5982c1
+
+// THIS IS WHERE I TEST
+
+a 
+	color: #97bef9
+	text-decoration: none
+
+
+a:hover 
+    color: #5983c1
+
+
+
+/* The two panels on the main page: */
+.mainpanel 
+	float: left
+	max-width: 700px
+	padding: 4px
+	padding-right: 30px
+
+
+.mainpanel li 
+    line-height: 20px
+
+
+.sidepanel 
+	float: left
+	max-width: 300px
+	background-color: #292934
+	padding: 2px
+	border-radius: 0 10px 30px 0
+
+.sidepanel a 
+    color: #85631b
+
+.sidepanel a:hover 
+    color: #d89e23
+
+.sidepanel ul li 
+    font-size: 20px
+    margin: 0 0 15px 0
+
+.sidepanel ul li ul li 
+    font-size: 18px
+    margin: 0px
+    list-style: none
+
+
+a:hover img 
+    background: #fe8019
+
+
+
+
+
+.entry h2 
+    margin: 5px auto 2px auto
+
+
+footer strong 
+    font-weight: bold
+
+
+dt 
+	font-weight: bold
+
+
+dt img 
+	height: 1em
+
+
+/* Class name of video thumbnails in videos.html */
+code 
+	color: #C3E88D
+    overflow-x: auto
+    /* background: #1d2021 */
+
+
+pre 
+    background: #32374D
+    border: 1px solid #444267
+    border-radius: 4px
+    padding: 5px
+    display: block
+    /* background: #1d2021 */
+
+
+.indexcolname 
+	max-width: 100px
+	text-overflow: ellipsis
+	white-space: nowrap
+	overflow: hidden
+
+
+.indexcoldesc 
+	font-weight: bold
+	padding: 10px
+	font-size: large
+
+
+.indexcollastmod,.indexcolsize 
+	font-size: small
+
+
+#indexlist 
+    margin: 0px auto
+
+
+.centerpiece 
+	align: center
+	margin: 0px auto
+
+
+/* Used in library.html */
+.booklist dt 
+	display: list-item
+	list-style-type: square
+	font-weight: normal
+
+
+.booklist dd 
+	display: none
+
+
+.booklist:hover dd 
+	display: block
+
+
+/* The mic class is for books featured in a NotRelated episode. */
+.mic:before 
+    content: "ðŸŽ™ï¸"
+
+
+.mic 
+	list-style: none
+	padding-left: 1em
+	text-indent: -1em
+	margin-left: 0
+	padding-left: 0
+
+
+ h1 
+    color: #50505f
+    font-weight: normal
+
+
+ h2 
+    color: #bb841a
+    font-weight: normal
+
+
+.imgcont 
+	   text-align: center
+	     position: relative
+
+
+.imgconttext 
+	position: absolute
+	top: 50%
+	left: 50%
+	transform: translate(-50%, -50%)
+	font-size: xx-large
+	color: black
+
+
+.hiddiv 
+	display: none
+
+
+.qr:hover 
+	color: goldenrod
+
+
+.qr:hover .hiddiv 
+	display: block
+	float: right
+
+
+.hiddiv img 
+	height: 200px

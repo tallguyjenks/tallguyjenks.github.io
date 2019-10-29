@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="rss.css" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+<channel>
+<title>Bryan's Rambles</title>
+<description>Programming, Computers, Tech, and general nerdiness from the mind of Bryan</description>
+<language>en-us</language>
+<link>https://www.bryanjenks.xyz/rss.xml</link>
+<atom:link href="https://www.bryanjenks.xyz/rss.xml" rel="self" type="application/rss+xml" />
+<image>
+<title>Bryan's Rambles</title>
+<url>https://www.bryanjenks.xyz/favicon.ico</url>
+<link>/rss.xml</link>
+</image>
+
+<item>
+    <title>title</title>
+    <pubDate>Mon, 2019 Oct 28 15:06</pubDate>
+    <description>testing</description>
+</item>
+
+</channel>
+</rss>
