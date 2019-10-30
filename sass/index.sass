@@ -110,8 +110,8 @@ $gruvboxColorBackgroundOne: #3c3836
 $gruvboxColorBackgroundTwo: #504945 
 $gruvboxColorForeground: #ebdbb2
 $gruvboxColorRed: #cc241d
-$gruvboxColorGreen: #98971a 
-$gruvboxColorYellow: #d79921
+$gruvboxColorGreen: #98981a 
+$gruvboxColorYellow: #d79a21
 $gruvboxColorBlue: #458588
 $gruvboxColorPurple: #b16286
 $gruvboxColorAqua: #689d6a
@@ -159,190 +159,66 @@ body
     margin-top: 30px
     overflow: none
 
+#pageHeader
+    color: $gruvboxColorForeground
+    padding-top: 15px
+    padding-bottom: 10px
+
+
 /* Blog entry: */
 .entry 
 	padding: 10px
 	border-radius: 0 10px 30px 0
 	margin-bottom: 20px
 	background-color: #2a2a35
-	border-left: 10px solid #5982c1
+    border-left: 10px solid $gruvboxColorBlue
 
-// THIS IS WHERE I TEST
+.entryH2 
+        margin: 5px auto 2px auto
 
 a 
-	color: #97bef9
+	color: $gruvboxColorBlue
 	text-decoration: none
-
-
+    
 a:hover 
-    color: #5983c1
+    color: $gruvboxColorBlueHalf
 
-
-
-/* The two panels on the main page: */
-.mainpanel 
-	float: left
-	max-width: 700px
-	padding: 4px
-	padding-right: 30px
-
-
-.mainpanel li 
-    line-height: 20px
-
-
-.sidepanel 
-	float: left
-	max-width: 300px
-	background-color: #292934
-	padding: 2px
-	border-radius: 0 10px 30px 0
-
-.sidepanel a 
-    color: #85631b
-
-.sidepanel a:hover 
-    color: #d89e23
-
-.sidepanel ul li 
-    font-size: 20px
-    margin: 0 0 15px 0
-
-.sidepanel ul li ul li 
-    font-size: 18px
-    margin: 0px
-    list-style: none
-
-
-a:hover img 
-    background: #fe8019
-
-
-
-
-
-.entry h2 
-    margin: 5px auto 2px auto
-
-
-footer strong 
+strong .footer
     font-weight: bold
 
-
-dt 
-	font-weight: bold
-
-
-dt img 
-	height: 1em
-
-
-/* Class name of video thumbnails in videos.html */
 code 
-	color: #C3E88D
+	color: $gruvboxColorYellowHalf 
     overflow-x: auto
-    /* background: #1d2021 */
-
 
 pre 
-    background: #32374D
-    border: 1px solid #444267
+    background: $gruvboxColorBackgroundOne 
+    border: 1px solid $gruvboxColorBackgroundTwo 
     border-radius: 4px
     padding: 5px
     display: block
-    /* background: #1d2021 */
 
 
-.indexcolname 
+/*.indexcolname 
 	max-width: 100px
 	text-overflow: ellipsis
 	white-space: nowrap
 	overflow: hidden
 
-
-.indexcoldesc 
+/*.indexcoldesc 
 	font-weight: bold
 	padding: 10px
 	font-size: large
 
-
-.indexcollastmod,.indexcolsize 
+/*.indexcollastmod,.indexcolsize 
 	font-size: small
 
-
-#indexlist 
+/*#indexlist 
     margin: 0px auto
 
-
-.centerpiece 
+/*.centerpiece 
 	align: center
-	margin: 0px auto
+	margin: 0px auto*/
 
-
-/* Used in library.html */
-.booklist dt 
-	display: list-item
-	list-style-type: square
-	font-weight: normal
-
-
-.booklist dd 
-	display: none
-
-
-.booklist:hover dd 
-	display: block
-
-
-/* The mic class is for books featured in a NotRelated episode. */
-.mic:before 
-    content: "ðŸŽ™ï¸"
-
-
-.mic 
-	list-style: none
-	padding-left: 1em
-	text-indent: -1em
-	margin-left: 0
-	padding-left: 0
-
-
- h1 
-    color: #50505f
+h2 
+    color: $gruvboxColorYellow //#bb851a
     font-weight: normal
-
-
- h2 
-    color: #bb841a
-    font-weight: normal
-
-
-.imgcont 
-	   text-align: center
-	     position: relative
-
-
-.imgconttext 
-	position: absolute
-	top: 50%
-	left: 50%
-	transform: translate(-50%, -50%)
-	font-size: xx-large
-	color: black
-
-
-.hiddiv 
-	display: none
-
-
-.qr:hover 
-	color: goldenrod
-
-
-.qr:hover .hiddiv 
-	display: block
-	float: right
-
-
-.hiddiv img 
-	height: 200px
