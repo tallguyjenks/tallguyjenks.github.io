@@ -123,7 +123,9 @@ $gruvboxColorBlueHalf: #83a598
 $gruvboxColorPurpleHalf: #d3869b
 $gruvboxColorAquaHalf: #8ec07c
 $gruvboxColorOrangeHalf: #fe8019
+$gruvboxColorGray: #a89984
 
+/* The Navigation Bar */
 nav
     margin: -30px 0 0 0
     padding: 0 
@@ -159,6 +161,7 @@ body
     margin-top: 30px
     overflow: none
 
+/* The content above the blogposts */
 #pageHeader
     color: $gruvboxColorForeground
     padding-top: 15px
@@ -166,15 +169,27 @@ body
 
 
 /* Blog entry: */
-.entry 
-	padding: 10px
-	border-radius: 0 10px 30px 0
-	margin-bottom: 20px
-	background-color: #2a2a35
+div.entry 
+    padding: 10px
+    border-radius: 0 10px 30px 0
+    margin-bottom: 20px
+    background-color: #2a2a35
     border-left: 10px solid $gruvboxColorBlue
 
-.entryH2 
-        margin: 5px auto 2px auto
+    & h2 
+        color: $gruvboxColorYellow 
+        font-weight: normal
+        padding-bottom: 10px
+
+    & p
+        color: $gruvboxColorForeground
+
+    & em
+        color: $gruvboxColorGray
+        font-size: 80%
+/* End Blog Entry */
+
+
 
 a 
 	color: $gruvboxColorBlue
@@ -196,29 +211,3 @@ pre
     border-radius: 4px
     padding: 5px
     display: block
-
-
-/*.indexcolname 
-	max-width: 100px
-	text-overflow: ellipsis
-	white-space: nowrap
-	overflow: hidden
-
-/*.indexcoldesc 
-	font-weight: bold
-	padding: 10px
-	font-size: large
-
-/*.indexcollastmod,.indexcolsize 
-	font-size: small
-
-/*#indexlist 
-    margin: 0px auto
-
-/*.centerpiece 
-	align: center
-	margin: 0px auto*/
-
-h2 
-    color: $gruvboxColorYellow //#bb851a
-    font-weight: normal
