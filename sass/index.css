@@ -192,4 +192,9 @@ pre {
   padding: 5px;
   display: block;
 }
+
+span.rss {
+  color: #d65d0e;
+  font-weight: bold;
+}
 /*# sourceMappingURL=index.css.map */
