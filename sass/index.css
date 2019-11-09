@@ -197,4 +197,9 @@ span.rss {
   color: #d65d0e;
   font-weight: bold;
 }
+
+#chart {
+  height: 150px;
+  padding-top: 10px;
+}
 /*# sourceMappingURL=index.css.map */
