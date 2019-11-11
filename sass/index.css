@@ -99,6 +99,7 @@ nav {
   padding: 0;
   background-color: #3c3836;
   overflow: hidden;
+  margin-bottom: 5px;
 }
 
 nav a {
@@ -220,10 +221,14 @@ pre {
 }
 
 #chartToggle {
-  padding: 10px;
+  margin-top: 5px solid #282828;
   color: #ebdbb2;
   font-size: 25px;
   font-weight: bold;
+  background-color: #504945;
+  border-radius: 10px;
+  width: 80px;
+  padding-bottom: 10px;
 }
 
 #chartToggle:hover {
