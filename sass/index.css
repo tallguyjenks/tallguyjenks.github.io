@@ -167,6 +167,20 @@ div.entry em {
 }
 
 /* End Blog Entry */
+h2.blogIndex {
+  color: #d79a21;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+ul.blogIndex {
+  padding-left: 25px;
+}
+
+ul li {
+  color: #a89984;
+}
+
 a {
   color: #458588;
   text-decoration: none;
@@ -193,7 +207,7 @@ pre {
   display: block;
 }
 
-span.rss {
+.rss {
   color: #d65d0e;
   font-weight: bold;
 }
@@ -201,5 +215,22 @@ span.rss {
 #chart {
   height: 150px;
   padding-top: 10px;
+  background-color: #504945;
+  border-top: 5px solid #282828;
+}
+
+#chartToggle {
+  padding: 10px;
+  color: #ebdbb2;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#chartToggle:hover {
+  cursor: pointer;
+}
+
+#chartToggleText {
+  font-size: 10px;
 }
 /*# sourceMappingURL=index.css.map */

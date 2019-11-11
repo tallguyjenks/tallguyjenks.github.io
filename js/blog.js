@@ -1,12 +1,12 @@
-// Chart
+// C3 Chart
 var chart = c3.generate({
     bindto: "#chart",
     data: 
     {
         columns: 
         [
-            ['Date', 201901, 201902, 201903, 201904, 201905, 201906],
-            ['2019', 30, 200, 100, 400, 150, 250]
+            ['Date', 201911],
+            ['2019', 1]
         ],
         x: 'Date',
         labels: true,
@@ -24,4 +24,13 @@ var chart = c3.generate({
     {
         r: 5
     },
+});
+
+
+//JQuery to Toggle Chart hiding
+
+$(document).ready(function(){
+    $("#chartToggle").click(function(){
+        $("#chart").slideToggle();
+    })
 });

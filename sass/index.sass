@@ -190,6 +190,18 @@ div.entry
 /* End Blog Entry */
 
 
+h2
+    &.blogIndex
+        color: $gruvboxColorYellow 
+        font-weight: bold
+        padding-bottom: 10px
+
+ul
+    &.blogIndex
+        padding-left: 25px
+    
+    & li
+        color: $gruvboxColorGray
 
 a 
 	color: $gruvboxColorBlue
@@ -212,10 +224,24 @@ pre
     padding: 5px
     display: block
 
-span.rss 
+.rss 
     color: $gruvboxColorOrange
     font-weight: bold
 
 #chart
     height: 150px
     padding-top: 10px
+    background-color: $gruvboxColorBackgroundTwo
+    border-top: 5px solid $gruvboxColorBackground
+
+    &Toggle
+        padding: 10px
+        color: $gruvboxColorForeground
+        font-size: 25px
+        font-weight: bold
+
+        &:hover
+            cursor: pointer
+
+        &Text
+            font-size: 10px
