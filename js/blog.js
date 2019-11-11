@@ -13,8 +13,8 @@ var chart = c3.generate({
         colors: 
         {
             '2019': '#d79921',
-            // TODO put the rest of the guvbox colors in here for additional years
-        },
+            // TODO put the rest of the gruvbox colors in here for additional years
+        }, 
     },
     zoom: 
     {
