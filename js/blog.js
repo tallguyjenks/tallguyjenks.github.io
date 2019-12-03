@@ -5,8 +5,8 @@ var chart = c3.generate({
     {
         columns: 
         [
-            ['Date', 201911],
-            ['2019', 1]
+            ['Date', 201911, 201912],
+            ['2019', 1,1]
         ],
         x: 'Date',
         labels: true,
