@@ -6,7 +6,8 @@ var chart = c3.generate({
         columns: 
         [
             ['Date', 201911, 201912],
-            ['2019', 1,1]
+            ['2019', 1,1],
+            
         ],
         x: 'Date',
         labels: true,
@@ -25,6 +26,8 @@ var chart = c3.generate({
         r: 5
     },
 });
+
+// TODO long term goal is to have a chart tool tip for each point/month and have a listing of post titles on hover
 
 
 //JQuery to Toggle Chart hiding
