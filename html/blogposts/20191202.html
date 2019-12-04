@@ -10,148 +10,153 @@
 </head>
 <body>
 <!-- Content Section -->
+<div class='entry'>
+  <h2>Rust, Clang, Python, Oh My!</h2>
+    <p>
+      It's been a bit, i promise that i was intending to post more often than this
+      but i've had a lot going on, as im sure most do during the holidays.
+    </p><br/>
+    <p>
+      So i have been playing around with <code>C</code>, <code>Rust</code>, and
+      <code>Python</code> to see what i like about the languages. As with most
+      programmers i feel, i learn best working with project based learning but my
+      problem is that i cant think of projects i <b>really</b> want to make. I
+      personally work best with business use cases and feel i learn best when im
+      hacking on something at work for a reason that benefits my workplace or
+      improves some facet of operations.
+    </p><br/>
+    <p>
+      I really like a lot of things about <code>Rust</code> and the
+      <code>Rust</code> Community, namely how well documented it is, how many
+      resources are out there for it, how much is being done for it's development,
+      the emphasis on security, and interfaces with <code>C</code> code to begin
+      migration to a more secure memory safe codebase. There's a lot to like about
+      it but really i just don't really have a project idea in mind to tackle with
+      it, but it does seem interesting, and to be a part of something that is just
+      developing is always appealing to me.
+    </p><br/>
+    <p>
+      I hope that i eventually get the time to invest and actually find a project i
+      want to work on with <code>Rust</code> because it seems like a cool language
+      to develop with. All that said what have i actually been up to these days?
+      well i've definitely been procrastinating on my websites development, i
+      technically dont even have a homepage created yet, its just the blog stuff
+      that's up and running so thats kind of sad, i really need to finish the home
+      page...
+    </p><br/>
+    <p>
+      What i have been working on is a lot of work related use cases and
+      programming,
+    </p><br/>
+    <p> 
+    <ul style="margin-left: 20px;">
+      <li><code>T-SQL</code> For querying an enterprise wide data warehouse</li>
+      <li><code>R</code>* For all things stats, data analysis and data viz</li>
+      <li>
+        <code>HTML, CSS, JS</code> The web stack is weirdly coming in handy in this
+        new role for some work
+      </li>
+      <li>
+        <code>CCL</code> Cerner Command Language basically SQL with other stuff
+        included to use for medical software querying
+      </li>
+      <li>
+        And lots of other one off items and things for general development practices
+      </li>
+    </ul>
+    </p><br/>
+    <p>
+    *with <code>R</code> i actually got a connection set up to the data warehouse so
+    i can effectively query directly from <code>RStudio</code> and just shove the
+    query output into a data frame and create some data visualizations with the data
+    using various packages like <code>ggplot2</code> which have yielded some cool
+    results.
+    </p><br/>
+    <p>
+      I really enjoy the <code>R</code> language and all the things it has been
+      stretched to do but also its beautiful charts and visualizations as well as
+      documentation it can create. I have said it before but i like with programming
+      to have a product as fast as possible as it is much easier to stay motivated
+      with programming to have a project or visceral product produced that you can
+      refine and hack on. <code>R</code> can send email, create interactive
+      dashboards, produce a variety of documentation and presentations with markdown
+      syntax and <code>R</code> code. It is a quirky language but theres a lot i
+      like about it and i hope to continue to use it more along with
+      <code>T-SQL</code> and the front end web stack.
+    </p><br/>
+    <p>
+      I have several videos planned for my youtube channel on various linux and
+      programming things some of which are related to the topics covered here but
+      ill produce a write-up for them on here
+      <i>(this is me being optimistic about my ability to commit to blogging)</i>.
+    </p><br/>
+    <p>
+      Today i actually saw in a newsletter im subscribed to for
+      <code>R</code> related material, a package called <code>patchwork</code> that
+      makes it easier to consolidate <code>R</code> visuals into a single image and
+      group items together and i tested it out and it is great! the syntax to create
+      these grouped visuals is very human friendly, here's some sample code and
+      output you can run in R studio to see the result:
+    </p><br/>
+    <pre><code>
+      ```{r}
 
-<p>
-    It's been a bit, i promise that i was intending to post more often than this
-    but i've had a lot going on, as im sure most do during the holidays.
-  </p>
-  
-  <p>
-    So i have been playing around with <code>C</code>, <code>Rust</code>, &
-    <code>Python</code> to see what i like about the languages. As with most
-    programmers i feel, i learn best working with project based learning but my
-    problem is that i cant think of projects i <b>really</b> want to make. I
-    personally work best with business use cases and feel i learn best when im
-    hacking on something at work for a reason that benefits my workplace or
-    improves some facet of operations.
-  </p>
-  
-  <p>
-    I really like a lot of things about <code>Rust</code> and the
-    <code>Rust</code> Community, namely how well documented it is, how many
-    resources are out there for it, how much is being done for it's development,
-    the emphasis on security, and interfaces with <code>C</code> code to begin
-    migration to a more secure memory safe codebase. There's a lot to like about
-    it but really i just don't really have a project idea in mind to tackle with
-    it, but it does seem interesting, and to be a part of something that is just
-    developing is always appealing to me.
-  </p>
-  <p>
-    I hope that i eventually get the time to invest and actually find a project i
-    want to work on with <code>Rust</code> because it seems like a cool language
-    to develop with. All that said what have i actually been up to these days?
-    well i've definitely been procrastinating on my websites development, i
-    technically dont even have a homepage created yet, its just the blog stuff
-    that's up and running so thats kind of sad, i really need to finish the home
-    page...
-  </p>
-  
-  <p>
-    What i have been working on is a lot of work related use cases and
-    programming,
-  </p>
-  
-  <ul>
-    <li><code>T-SQL</code> For querying an enterprise wide data warehouse</li>
-    <li><code>R</code>* For all things stats, data analysis and data viz</li>
-    <li>
-      <code>HTML, CSS, JS</code> The web stack is weirdly coming in handy in this
-      new role for some work
-    </li>
-    <li>
-      <code>CCL</code> Cerner Command Language basically SQL with other stuff
-      included to use for medical software querying
-    </li>
-    <li>
-      And lots of other one off items and things for general development practices
-    </li>
-  </ul>
-  *with <code>R</code> i actually got a connection set up to the data warehouse so
-  i can effectively query directly from <code>RStudio</code> and just shove the
-  query output into a data frame and create some data visualizations with the data
-  using various packages like <code>ggplot2</code> which have yielded some cool
-  results.
-  
-  <p>
-    I really enjoy the <code>R</code> language and all the things it has been
-    stretched to do but also its beautiful charts and visualizations as well as
-    documentation it can create. I have said it before but i like with programming
-    to have a product as fast as possible as it is much easier to stay motivated
-    with programming to have a project or visceral product produced that you can
-    refine and hack on. <code>R</code> can send email, create interactive
-    dashboards, produce a variety of documentation and presentations with markdown
-    syntax and <code>R</code> code. It is a quirky language but theres a lot i
-    like about it and i hope to continue to use it more along with
-    <code>T-SQL</code> and the front end web stack.
-  </p>
-  
-  <p>
-    I have several videos planned for my youtube channel on various linux and
-    programming things some of which are related to the topics covered here but
-    ill produce a write-up for them on here
-    <i>(this is me being optimistic about my ability to commit to blogging)</i>.
-  </p>
-  
-  <p>
-    Today i actually saw in a newsletter im subscribed to for
-    <code>R</code> related material, a package called <code>patchwork</code> that
-    makes it easier to consolidate <code>R</code> visuals into a single image and
-    group items together and i tested it out and it is great! the syntax to create
-    these grouped visuals is very human friendly, here's some sample code and
-    output you can run in R studio to see the result:
-  </p>
-  <pre>
-    ```{r patch}
-  
-  library(patchwork)
-  library(ggplot2)
-  # A few more plots to play with
-  p1 <- ggplot(mpg) + 
-    geom_point(aes(hwy, displ))
-  p2 <- ggplot(mpg) + 
-    geom_bar(aes(manufacturer, fill = stat(count))) + 
-    coord_flip()
-  p3 <- ggplot(mpg) + 
-    geom_smooth(aes(hwy, cty)) + 
-    facet_wrap(~year)
-  p4 <- ggplot(mpg) + 
-    geom_tile(aes(factor(cyl), drv, fill = stat(count)), stat = 'bin2d')
-  
-  (p1 | p2) /
-     p3
-  
-  layout <- '
-              ABB
-              CCD
-          '
-  p1 + p2 + p3 + p4 + plot_layout(design = layout)
-  
-  ```
-  </pre>
-  
-  <p>
-    As for my current projects, im still trying to finish this darn website to a
-    point that is not embaressing, at work im trying to wrap my head around Shiny
-    dashboards developed as <code>R</code> packages with
-    <code>testthat</code> unit tests and all.
-  </p>
-  
-  <p>
-    i guess that is all for now, always a lot going on but im just trying to
-    increase my programming skills while maintaining my health and fitness, which
-    means at home i try to prioritize health and fitness and at work i hope for
-    business use cases to sharpen my programming skills so that i can devote more
-    of my personal time to exercise and health to support the worklife. Lately its
-    been the keto diet, a calisthenics program by <b>FitnessFAQ</b> on youtube,
-    which i am <b>LOVING</b> with nightly 3mi walks and sometimes longer hikes on
-    the weekends with the lady.
-  </p>
-  <p>
-    well thats enough rambling for now, if you'd like to ever change just shoot me
-    an email at
-    <a href="mailto:bryanjenks@protonmail.com">bryanjenks@protonmail.com</a>.\
-  </p>
-  <p>cheers!</p>
+    library(patchwork)
+    library(ggplot2)
+    # A few more plots to play with
+    p1 <- ggplot(mpg) + 
+      geom_point(aes(hwy, displ))
+    p2 <- ggplot(mpg) + 
+      geom_bar(aes(manufacturer, fill = stat(count))) + 
+      coord_flip()
+    p3 <- ggplot(mpg) + 
+      geom_smooth(aes(hwy, cty)) + 
+      facet_wrap(~year)
+    p4 <- ggplot(mpg) + 
+      geom_tile(aes(factor(cyl), drv, fill = stat(count)), stat = 'bin2d')
+
+    (p1 | p2) /
+      p3
+
+    layout <- '
+                ABB
+                CCD
+            '
+    p1 + p2 + p3 + p4 + plot_layout(design = layout)
+
+    ```
+    </code></pre><br/>
+    <p>
+      <center>
+        <img src="/img/blogposts/20191202/fig1.png"/>
+        <img src="/img/blogposts/20191202/fig2.png"/>
+      </center>
+    </p><br/>
+    <p>
+      As for my current projects, im still trying to finish this darn website to a
+      point that is not embaressing, at work im trying to wrap my head around Shiny
+      dashboards developed as <code>R</code> packages with
+      <code>testthat</code> unit tests and all.
+    </p><br/>
+    <p>
+      i guess that is all for now, always a lot going on but im just trying to
+      increase my programming skills while maintaining my health and fitness, which
+      means at home i try to prioritize health and fitness and at work i hope for
+      business use cases to sharpen my programming skills so that i can devote more
+      of my personal time to exercise and health to support the worklife. Lately its
+      been the keto diet, a calisthenics program by <b>FitnessFAQ</b> on youtube,
+      which i am <b>LOVING</b> with nightly 3mi walks and sometimes longer hikes on
+      the weekends with the lady.
+    </p><br/>
+    <p>
+      well thats enough rambling for now, if you'd like to ever change just shoot me
+      an email at
+      <a href="mailto:bryanjenks@protonmail.com">bryanjenks@protonmail.com</a>.
+    </p><br/>
+    <p>cheers!</p>
+  <br/>
+  <em>Tue, 2019 Dec 3rd, 06:27 GMT-8</em>
+</div>
   
 
 <!-- Footer Section -->
