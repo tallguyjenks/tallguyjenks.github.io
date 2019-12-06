@@ -1,28 +1,23 @@
 // C3 Chart
 var chart = c3.generate({
     bindto: "#chart",
-    data: 
-    {
-        columns: 
-        [
+    data: {
+        columns: [
             ['Date', 1, 2, 3, 4, 5, 6, 7 ,8 ,9 ,10, 11, 12],
             ['2019', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
             
         ],
         x: 'Date',
         labels: true,
-        colors: 
-        {
+        colors: {
             '2019': '#d79921',
             // TODO put the rest of the gruvbox colors in here for additional years
         }, 
     },
-    zoom: 
-    {
+    zoom: {
         enabled: true
     },
-    point: 
-    {
+    point: {
         r: 5
     },
 });
