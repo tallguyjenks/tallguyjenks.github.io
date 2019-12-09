@@ -328,16 +328,22 @@ pre
 /* Library Table*/
 body
     & table
+        border: 1px solid $gruvboxColorBackground
+        
         & h4
             margin-left: auto
             margin-right: auto
         
         & thead
+            border: 1px solid $gruvboxColorBackground
+
             & tr
                 cursor: pointer
+                border: 1px solid $gruvboxColorBackground
             
             & th
                 color: $gruvboxColorForeground
+                border: 1px solid $gruvboxColorBackground
 
     & td.groupname
         margin-top: 10px
@@ -347,6 +353,7 @@ body
         font-size: 1.1em
         font-weight: bolder
         color: $gruvboxColorForeground
+        border: 1px solid $gruvboxColorBackground
     
     &th
         color: $gruvboxColorForeground
@@ -358,25 +365,32 @@ body
         padding-right: 4px
 
     & tr
+        border: 1px solid $gruvboxColorBackground
+
         &.entry0
             background-color: $gruvboxColorBackgroundOne
+            border: 1px solid $gruvboxColorBackground
         
         &.entry1
-            background-color: $gruvboxColorBackgroundTwo 
+            background-color: $gruvboxColorBackgroundTwo
+            border: 1px solid $gruvboxColorBackground 
         
         &.hidden
             display: none
         
         &.groupEntry1
             background-color: $gruvboxColorBackgroundOne
+            border: 1px solid $gruvboxColorBackground
     
     & td
+        border: 1px solid $gruvboxColorBackground
+        
         &.field
             margin-left: 0px
             margin-right: 0px
             padding-left: 5px
             padding-right: 5px
-            border: 1px solid #eee
+            border: 1px solid $gruvboxColorBackground
             text-align: left
 
         color: $gruvboxColorForeground

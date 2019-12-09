@@ -332,17 +332,27 @@ pre {
 }
 
 /* Library Table*/
+body table {
+  border: 1px solid #282828;
+}
+
 body table h4 {
   margin-left: auto;
   margin-right: auto;
 }
 
+body table thead {
+  border: 1px solid #282828;
+}
+
 body table thead tr {
   cursor: pointer;
+  border: 1px solid #282828;
 }
 
 body table thead th {
   color: #ebdbb2;
+  border: 1px solid #282828;
 }
 
 body td.groupname {
@@ -353,6 +363,7 @@ body td.groupname {
   font-size: 1.1em;
   font-weight: bolder;
   color: #ebdbb2;
+  border: 1px solid #282828;
 }
 
 bodyth {
@@ -365,12 +376,18 @@ bodyth {
   padding-right: 4px;
 }
 
+body tr {
+  border: 1px solid #282828;
+}
+
 body tr.entry0 {
   background-color: #3c3836;
+  border: 1px solid #282828;
 }
 
 body tr.entry1 {
   background-color: #504945;
+  border: 1px solid #282828;
 }
 
 body tr.hidden {
@@ -379,9 +396,11 @@ body tr.hidden {
 
 body tr.groupEntry1 {
   background-color: #3c3836;
+  border: 1px solid #282828;
 }
 
 body td {
+  border: 1px solid #282828;
   color: #ebdbb2;
 }
 
@@ -390,7 +409,7 @@ body td.field {
   margin-right: 0px;
   padding-left: 5px;
   padding-right: 5px;
-  border: 1px solid #eee;
+  border: 1px solid #282828;
   text-align: left;
 }
 
