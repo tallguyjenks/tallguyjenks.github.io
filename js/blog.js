@@ -13,7 +13,8 @@ var chart = c3.generate({
         x: 'Date',
         labels: true,
         colors: {
-            '2019': '#d79921',
+            '2019': '#d79921', //Yellow
+            '2020': '#458588', //Blue
             // TODO put the rest of the gruvbox colors in here for additional years
         }, 
     },
