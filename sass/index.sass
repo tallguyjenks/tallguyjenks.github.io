@@ -162,6 +162,23 @@ body
     margin-top: 30px
     overflow: none
 
+    & h1 
+        color: $gruvboxColorYellow 
+        font-weight: normal
+        padding-bottom: 10px
+    
+    & h2
+        color: $gruvboxColorYellow 
+        font-weight: normal
+        padding-bottom: 10px
+
+    & p
+        color: $gruvboxColorForeground
+
+    & ul
+        margin-left: 20px
+
+
 /* The content above the blogposts */
 #pageHeader
     color: $gruvboxColorForeground
@@ -193,12 +210,60 @@ div.entry
         margin-left: 20px
 /* End Blog Entry */
 
+/* The two panels on the main page: */
+.mainpanel 
+	float: left
+	max-width: 700px
+	padding: 4px
+	padding-right: 30px
+
+.mainpanel li 
+    line-height: 20px
+
+.sidepanel 
+	float: left
+	max-width: 300px
+	background-color: #2a2a35
+	padding: 2px
+	border-radius: 0 10px 30px 0
+
+.sidepanel a 
+    color: #85631b
+
+.sidepanel a:hover 
+    color: #d89e23
+
+.sidepanel ul li 
+    font-size: 20px
+    margin: 0 0 15px 0
+
+.sidepanel ul li ul li 
+    font-size: 18px
+    margin: 0px
+    list-style: none
+
+a:hover img 
+    background: #fe8019
+
+li img
+	height: 1.25em
+
+h1 img
+    height: 1em
+
+h3 img
+	height: 1em
+
+    /* The two panels on the main page: */
 
 h2
     &.blogIndex
         color: $gruvboxColorYellow 
         font-weight: bold
         padding-bottom: 10px
+    
+    & img
+        height: 1em
 
 ul
     &.blogIndex
@@ -253,3 +318,104 @@ pre
 
         &Text
             font-size: 10px
+
+#attrib
+    color: $gruvboxColorBackground
+
+    & a
+        color: $gruvboxColorBackground
+
+/* Library Table*/
+body
+    & table
+        & h4
+            margin-left: auto
+            margin-right: auto
+        
+        & thead
+            & tr
+                cursor: pointer
+            
+            & th
+                color: $gruvboxColorForeground
+
+    & td.groupname
+        margin-top: 10px
+        margin-bottom: 2px
+        padding-left: 4px
+        background: $gruvboxColorBackground
+        font-size: 1.1em
+        font-weight: bolder
+        color: $gruvboxColorForeground
+    
+    &th
+        color: $gruvboxColorForeground
+        background-color: $gruvboxColorBackground
+        border: 1px solid $gruvboxColorBackground
+        font-size: 1.1em
+        font-weight: bold
+        padding-left: 4px
+        padding-right: 4px
+
+    & tr
+        &.entry0
+            background-color: $gruvboxColorBackgroundOne
+        
+        &.entry1
+            background-color: $gruvboxColorBackgroundTwo 
+        
+        &.hidden
+            display: none
+        
+        &.groupEntry1
+            background-color: $gruvboxColorBackgroundOne
+    
+    & td
+        &.field
+            margin-left: 0px
+            margin-right: 0px
+            padding-left: 5px
+            padding-right: 5px
+            border: 1px solid #eee
+            text-align: left
+
+        color: $gruvboxColorForeground
+
+a.sortheader
+    text-decoration: none
+
+#headerblock 
+    padding-top: 10px
+    margin-bottom: 10px
+    border-bottom: 1px solid black
+    overflow: auto
+
+h1.colltitle 
+    padding: 4px
+    font-size: 2em
+    margin: 0px
+
+span.subtitle 
+    margin-left: 20px
+    font-size: 0.8em
+
+form 
+    margin: 5px 0 0 0
+    float: right
+
+#searchText 
+    background-color: $gruvboxColorBackground 
+    color: $gruvboxColorForeground
+
+input 
+    padding: 0
+    margin: 0 0 4px 4px
+
+.button 
+    padding: 5px 
+    border-radius: 10px
+    margin: 0 0 4px 4px
+    background-color: $gruvboxColorBackground 
+    color: $gruvboxColorForeground
+
+/* End Library Table*/

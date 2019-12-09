@@ -136,6 +136,26 @@ body {
   overflow: none;
 }
 
+body h1 {
+  color: #d79a21;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+body h2 {
+  color: #d79a21;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+body p {
+  color: #ebdbb2;
+}
+
+body ul {
+  margin-left: 20px;
+}
+
 /* The content above the blogposts */
 #pageHeader {
   color: #ebdbb2;
@@ -172,10 +192,70 @@ div.entry ul {
 }
 
 /* End Blog Entry */
+/* The two panels on the main page: */
+.mainpanel {
+  float: left;
+  max-width: 700px;
+  padding: 4px;
+  padding-right: 30px;
+}
+
+.mainpanel li {
+  line-height: 20px;
+}
+
+.sidepanel {
+  float: left;
+  max-width: 300px;
+  background-color: #2a2a35;
+  padding: 2px;
+  border-radius: 0 10px 30px 0;
+}
+
+.sidepanel a {
+  color: #85631b;
+}
+
+.sidepanel a:hover {
+  color: #d89e23;
+}
+
+.sidepanel ul li {
+  font-size: 20px;
+  margin: 0 0 15px 0;
+}
+
+.sidepanel ul li ul li {
+  font-size: 18px;
+  margin: 0px;
+  list-style: none;
+}
+
+a:hover img {
+  background: #fe8019;
+}
+
+li img {
+  height: 1.25em;
+}
+
+h1 img {
+  height: 1em;
+}
+
+h3 img {
+  height: 1em;
+  /* The two panels on the main page: */
+}
+
 h2.blogIndex {
   color: #d79a21;
   font-weight: bold;
   padding-bottom: 10px;
+}
+
+h2 img {
+  height: 1em;
 }
 
 ul.blogIndex {
@@ -242,4 +322,122 @@ pre {
 #chartToggleText {
   font-size: 10px;
 }
+
+#attrib {
+  color: #282828;
+}
+
+#attrib a {
+  color: #282828;
+}
+
+/* Library Table*/
+body table h4 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body table thead tr {
+  cursor: pointer;
+}
+
+body table thead th {
+  color: #ebdbb2;
+}
+
+body td.groupname {
+  margin-top: 10px;
+  margin-bottom: 2px;
+  padding-left: 4px;
+  background: #282828;
+  font-size: 1.1em;
+  font-weight: bolder;
+  color: #ebdbb2;
+}
+
+bodyth {
+  color: #ebdbb2;
+  background-color: #282828;
+  border: 1px solid #282828;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+body tr.entry0 {
+  background-color: #3c3836;
+}
+
+body tr.entry1 {
+  background-color: #504945;
+}
+
+body tr.hidden {
+  display: none;
+}
+
+body tr.groupEntry1 {
+  background-color: #3c3836;
+}
+
+body td {
+  color: #ebdbb2;
+}
+
+body td.field {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid #eee;
+  text-align: left;
+}
+
+a.sortheader {
+  text-decoration: none;
+}
+
+#headerblock {
+  padding-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
+  overflow: auto;
+}
+
+h1.colltitle {
+  padding: 4px;
+  font-size: 2em;
+  margin: 0px;
+}
+
+span.subtitle {
+  margin-left: 20px;
+  font-size: 0.8em;
+}
+
+form {
+  margin: 5px 0 0 0;
+  float: right;
+}
+
+#searchText {
+  background-color: #282828;
+  color: #ebdbb2;
+}
+
+input {
+  padding: 0;
+  margin: 0 0 4px 4px;
+}
+
+.button {
+  padding: 5px;
+  border-radius: 10px;
+  margin: 0 0 4px 4px;
+  background-color: #282828;
+  color: #ebdbb2;
+}
+
+/* End Library Table*/
 /*# sourceMappingURL=index.css.map */
