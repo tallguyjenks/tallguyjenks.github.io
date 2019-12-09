@@ -167,6 +167,10 @@ div.entry em {
   font-size: 80%;
 }
 
+div.entry ul {
+  margin-left: 20px;
+}
+
 /* End Blog Entry */
 h2.blogIndex {
   color: #d79a21;
