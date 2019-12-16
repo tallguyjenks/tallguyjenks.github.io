@@ -302,6 +302,7 @@ pre {
   padding-top: 10px;
   background-color: #504945;
   border-top: 5px solid #282828;
+  color: #282828;
 }
 
 #chartToggle {
@@ -321,6 +322,11 @@ pre {
 
 #chartToggleText {
   font-size: 10px;
+}
+
+.c3-tooltip td {
+  color: #282828;
+  font-weight: bold;
 }
 
 #attrib {
