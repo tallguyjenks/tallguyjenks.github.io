@@ -22,14 +22,20 @@
 <pubDate>Wed, 18 Dec 2019 23:41:27 -0800</pubDate>
 <description><![CDATA[
 <p>So i've been watching some of <a href="www.lukesmith.xyz">Luke's</a> videos on <code>LaTeX</code> and was writing some notes i was taking on a book about a viking excavation site and their findings exclusively in <code>LaTeX</code>. So this document is all about viking leather work and since i also run a leather working business and perform as a viking at local renaissance faires, i want my skit as a merchant to be time period correct leather work.</p>
+<br/>
 
 <p>I Digress, i was writing all my pertinant findings in <code>LaTeX</code> and as far as i had gotten i liked it well enough, but Luke was right, it is a hefty install, and the learning curve is steep. There are a few things like macros in <code>LaTeX</code> i cant really imagine replicating at this point, but for most of my purposes, ill probably never need them.</p>
+<br/>
 
 <p>So after watching more of Luke's <code>LaTeX</code> videos i re-watched his videos on <code>RMarkdown</code>. Now i <b>LOVE</b> <code>RMarkdown</code>, it's one of my favorite things to use not only at work, but also at home, and were i to return, at school. <code>RMarkdown</code> make note taking, documentation, data analysis and reporting, and much more SO much easier. Once i saw Luke talking about how with <code>pandoc-citeproc</code> that the same power of a bib/bibber file for <code>LaTeX</code> can be replicated seamlessly in <code>RMarkdown</code> and pretty much all the benefits of <code>LaTeX</code> i figured there's really no reason to use anything else. So i moved my notes over to <code>RMarkdown</code> and i plan to use it for pretty much everything for ever.</p>
+<br/>
 
 <p>Given my love for <code>RMarkdown</code> i planned to do some videos on it, and i finally got around to writing my ideas out on various topics i could cover on RMarkdown, and it turns out its like 16 ideas so far, so there will be a lot of <code>RMarkdown</code> vidos to come in the future.</p>
+<br/>
 ]]></description>
 </item>
+
+
 
 
 <item>
