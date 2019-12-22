@@ -17,6 +17,23 @@
 <!-- LB -->
 
 <item>
+<title>R Markdown Code Snippets in NeoVim VIMRC</title>
+<guid>https://bryanjenks.xyz/blog.html#r-markdown-code-snippets-in-neovim-vimrc</guid>
+<pubDate>Sun, 22 Dec 2019 13:45:11 -0800</pubDate>
+<description><![CDATA[
+<p>Im actually learning to love the code snippet functionality of <code>vim</code> quite a lot.</p>
+<br>
+<p>The power of <code>vim</code> is that fingers are always on the keyboard and that the <em>language</em> of <code>vim</code> i.e. the thought that <code>diw</code> inside <code>vim</code> is <em>delete inner word</em> makes it powerful to incorporate these actions of text and word objects while simultaniously creating code snippets and modification of the code through these actions.</p>
+<br>
+<p>This really came in handy with inserting images in <code>RMarkdown</code> instead of using the markdown syntax for image insertion that i for some reason seem to have such trouble with.</p>
+<br>
+<p>The video on this is <a href="https://youtu.be/N4kv64iJd9A">HERE</a> </p>
+<br>
+]]></description>
+</item>
+
+
+<item>
 <title>R Markdown is superior to LaTeX</title>
 <guid>https://bryanjenks.xyz/blog.html#r-markdown-is-superior-to-latex</guid>
 <pubDate>Sat, 21 Dec 2019 21:50:28 -0800</pubDate>
