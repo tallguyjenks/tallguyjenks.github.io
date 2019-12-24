@@ -30,20 +30,27 @@
 
 
 <item>
-<title>Options +Indexes
-Luke Smith's LB 'Lightweight Blog' Script
-tellico library page on site
-Neomutt, Email in the Terminal
-This website bryanjenks.xyz
-Task management with Taskwarrior and Taskell
-LaTeX, RMarkdown, Viking Excavation, and some plans
-R Markdown is superior to LaTeX
-R Markdown Code Snippets in NeoVim VIMRC
-Contributing to LARBS and Surprised by DMENU</title>
-<guid>https://bryanjenks.xyz/blog.html#</guid>
-<pubDate>Options +IndexesSun, 08 Dec 2019 16:55:27 -0800Sun, 08 Dec 2019 22:28:26 -0800Mon, 09 Dec 2019 18:57:54 -0800Mon, 09 Dec 2019 18:57:59 -0800Mon, 09 Dec 2019 18:58:01 -0800Wed, 18 Dec 2019 23:41:27 -0800Sat, 21 Dec 2019 21:50:28 -0800Sun, 22 Dec 2019 13:45:11 -0800</pubDate>
+<title>Luke Smith's LB 'Lightweight Blog' Script</title>
+<guid>https://bryanjenks.xyz/blog.html#luke-smiths-lb-lightweight-blog-script</guid>
+<pubDate>Sun 08 Dec 2019 16:55:27 -0800</pubDate>
 <description><![CDATA[
+<br/>
+<p>So i finally got around to looking into <a href="www.lukesmith.xyz">Luke</a>'s <code>LB</code> script for blogging on a custom website like his. I gotta say that it <b>IS</b> so much nicer to use that script than doing what i was doing before...</p>
 
+<p>Before <code>LB</code> this was my process:</p>
+<br/>
+<ul>
+	<li>Write a draft post page</li>
+	<li>Add preview page to the blog roll</li>
+	<li>Add post to the blog index</li>
+	<li>Add post to the <i>rss.xml</i> document</li>
+</ul>
+<br/>
+<p>
+and all of this occurred in any order, it was a hassle and a waste of brain processing power to keep having to think in so many directions with all the file interations.
+</p>
+<p>I read the readme, and edited the shell script and this very first post is made with the <code>LB</code> shell script, and im already in love with it! i think i'll make a youtube video on it soon.</p>
+<br/>
 ]]></description>
 </item>
 
