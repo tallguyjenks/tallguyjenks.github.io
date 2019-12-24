@@ -28,33 +28,6 @@
 ]]></description>
 </item>
 
-
-<item>
-<title>Luke Smith's LB 'Lightweight Blog' Script</title>
-<guid>https://bryanjenks.xyz/blog.html#luke-smiths-lb-lightweight-blog-script</guid>
-<pubDate>Sun 08 Dec 2019 16:55:27 -0800</pubDate>
-<description><![CDATA[
-<br/>
-<p>So i finally got around to looking into <a href="www.lukesmith.xyz">Luke</a>'s <code>LB</code> script for blogging on a custom website like his. I gotta say that it <b>IS</b> so much nicer to use that script than doing what i was doing before...</p>
-
-<p>Before <code>LB</code> this was my process:</p>
-<br/>
-<ul>
-	<li>Write a draft post page</li>
-	<li>Add preview page to the blog roll</li>
-	<li>Add post to the blog index</li>
-	<li>Add post to the <i>rss.xml</i> document</li>
-</ul>
-<br/>
-<p>
-and all of this occurred in any order, it was a hassle and a waste of brain processing power to keep having to think in so many directions with all the file interations.
-</p>
-<p>I read the readme, and edited the shell script and this very first post is made with the <code>LB</code> shell script, and im already in love with it! i think i'll make a youtube video on it soon.</p>
-<br/>
-]]></description>
-</item>
-
-
 <item>
 <title>R Markdown Code Snippets in NeoVim VIMRC</title>
 <guid>https://bryanjenks.xyz/blog.html#r-markdown-code-snippets-in-neovim-vimrc</guid>
@@ -234,10 +207,6 @@ and all of this occurred in any order, it was a hassle and a waste of brain proc
 </item>
 
 
-
-
-
-
 <item>
 <title>Luke Smith's LB 'Lightweight Blog' Script</title>
 <guid>https://www.bryanjenks.xyz/blog.html#luke-smiths-lb-lightweight-blog-script</guid>
@@ -260,14 +229,16 @@ and all of this occurred in any order, it was a hassle and a waste of brain proc
 ]]></description>
 </item>
 
+
 <item>
   <title>Rust, Clang, Python, Oh My!</title>
+  <guid>https://bryanjenks.xyz/blog.html#20191202</guid>
   <pubDate>Mon, 2019 Dec 2nd 06:27 GMT-8</pubDate>
-  <description>
+  <description><![CDATA[
     <p>
       It's been a bit, i promise that i was intending to post more often than this
       but i've had a lot going on, as im sure most do during the holidays.
-    </p><br/>
+    </p><br>
     <p>
       So i have been playing around with <code>C</code>, <code>Rust</code>, and
       <code>Python</code> to see what i like about the languages. As with most
@@ -276,7 +247,7 @@ and all of this occurred in any order, it was a hassle and a waste of brain proc
       personally work best with business use cases and feel i learn best when im
       hacking on something at work for a reason that benefits my workplace or
       improves some facet of operations.
-    </p><br/>
+    </p><br>
     <p>
       I really like a lot of things about <code>Rust</code> and the
       <code>Rust</code> Community, namely how well documented it is, how many
@@ -286,7 +257,7 @@ and all of this occurred in any order, it was a hassle and a waste of brain proc
       it but really i just don't really have a project idea in mind to tackle with
       it, but it does seem interesting, and to be a part of something that is just
       developing is always appealing to me.
-    </p><br/>
+    </p><br>
     <p>
       I hope that i eventually get the time to invest and actually find a project i
       want to work on with <code>Rust</code> because it seems like a cool language
@@ -295,11 +266,11 @@ and all of this occurred in any order, it was a hassle and a waste of brain proc
       technically dont even have a homepage created yet, its just the blog stuff
       that's up and running so thats kind of sad, i really need to finish the home
       page...
-    </p><br/>
+    </p><br/
     <p>
       What i have been working on is a lot of work related use cases and
       programming,
-    </p><br/>
+    </p><br>
     <ul>
       <li><code>T-SQL</code> For querying an enterprise wide data warehouse</li>
       <li><code>R</code>* For all things stats, data analysis and data viz</li>
@@ -314,14 +285,14 @@ and all of this occurred in any order, it was a hassle and a waste of brain proc
       <li>
         And lots of other one off items and things for general development practices
       </li>
-    </ul><br/>
+    </ul><br>
     <p>
     *with <code>R</code> i actually got a connection set up to the data warehouse so
     i can effectively query directly from <code>RStudio</code> and just shove the
     query output into a data frame and create some data visualizations with the data
     using various packages like <code>ggplot2</code> which have yielded some cool
     results.
-    </p><br/>
+    </p><br>
     <p>
       I really enjoy the <code>R</code> language and all the things it has been
       stretched to do but also its beautiful charts and visualizations as well as
@@ -333,13 +304,13 @@ and all of this occurred in any order, it was a hassle and a waste of brain proc
       syntax and <code>R</code> code. It is a quirky language but theres a lot i
       like about it and i hope to continue to use it more along with
       <code>T-SQL</code> and the front end web stack.
-    </p><br/>
+    </p><br>
     <p>
       I have several videos planned for my youtube channel on various linux and
       programming things some of which are related to the topics covered here but
       ill produce a write-up for them on here
       <i>(this is me being optimistic about my ability to commit to blogging)</i>.
-    </p><br/>
+    </p><br>
     <p>
       Today i actually saw in a newsletter im subscribed to for
       <code>R</code> related material, a package called <code>patchwork</code> that
@@ -347,7 +318,7 @@ and all of this occurred in any order, it was a hassle and a waste of brain proc
       group items together and i tested it out and it is great! the syntax to create
       these grouped visuals is very human friendly, here's some sample code and
       output you can run in R studio to see the result:
-    </p><br/>
+    </p><br>
     <pre><code>
       ```{r patch}
 
@@ -375,13 +346,13 @@ and all of this occurred in any order, it was a hassle and a waste of brain proc
     p1 + p2 + p3 + p4 + plot_layout(design = layout)
 
     ```
-    </code></pre><br/>
+    </code></pre><br>
     <p>
       As for my current projects, im still trying to finish this darn website to a
       point that is not embaressing, at work im trying to wrap my head around Shiny
       dashboards developed as <code>R</code> packages with
       <code>testthat</code> unit tests and all.
-    </p><br/>
+    </p><br>
     <p>
       i guess that is all for now, always a lot going on but im just trying to
       increase my programming skills while maintaining my health and fitness, which
@@ -391,19 +362,21 @@ and all of this occurred in any order, it was a hassle and a waste of brain proc
       been the keto diet, a calisthenics program by <b>FitnessFAQ</b> on youtube,
       which i am <b>LOVING</b> with nightly 3mi walks and sometimes longer hikes on
       the weekends with the lady.
-    </p><br/>
+    </p><br>
     <p>
       well thats enough rambling for now, if you'd like to ever change just shoot me
       an email at
       <a href="mailto:bryanjenks@protonmail.com">bryanjenks@protonmail.com</a>.
-    </p><br/>
+    </p><br>
     <p>cheers!</p>
-    </description>
+
+    ]]></description>
 </item>
+
 <item>
     <title>Hello World!</title>
     <pubDate>Sun, 2019 Nov 10th 19:52 GMT-8</pubDate>
-    <description>
+    <description><![CDATA[
     <p>
         So ive decided to start a blog on this website, and talk about my various doings and interests. To start, what am i currently up to?
     </p><br/>
@@ -422,7 +395,7 @@ and all of this occurred in any order, it was a hassle and a waste of brain proc
     <p>
         Well i have a lot going on lately but i hope to make more of these posts and enjoy this process a time goes on. some of the next tasks are to fix some things on this site, and once this site is really up and running, i plan to leave facebook and hopefully experience more digital minimalism. I'd also like to just feel like i can read more and work on my leather work projects without always being distracted by the digital world, but knowing nerdy me this is an impossibility. Well for now thats all, and i will return with further ramblings in the future!
     </p>
-    </description>
+    ]]></description>
 </item>
 </channel>
 </rss>
