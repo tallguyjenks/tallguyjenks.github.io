@@ -1,2 +1,5 @@
 .vscode
 .vscode/*
+lb
+/blog/.htaccess
+/blog/.drafts/

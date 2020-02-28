@@ -1,20 +1,2 @@
 Options +Indexes
-AddDescription "Luke Smith's LB 'Lightweight Blog' Script" "luke-smiths-lb-lightweight-blog-script.html" #Sun, 08 Dec 2019 16:55:27 -0800
-AddDescription "tellico library page on site" "tellico-library-page-on-site.html" #Sun, 08 Dec 2019 22:28:26 -0800
-AddDescription "Neomutt, Email in the Terminal" "neomutt-email-in-the-terminal.html" #Mon, 09 Dec 2019 18:57:54 -0800
-AddDescription "This website bryanjenks.xyz" "this-website-bryanjenksxyz.html" #Mon, 09 Dec 2019 18:57:59 -0800
-AddDescription "Task management with Taskwarrior and Taskell" "task-management-with-taskwarrior-and-taskell.html" #Mon, 09 Dec 2019 18:58:01 -0800
-AddDescription "LaTeX, RMarkdown, Viking Excavation, and some plans" "latex-rmarkdown-viking-excavation-and-some-plans.html" #Wed, 18 Dec 2019 23:41:27 -0800
-AddDescription "R Markdown is superior to LaTeX" "r-markdown-is-superior-to-latex.html" #Sat, 21 Dec 2019 21:50:28 -0800
-AddDescription "R Markdown Code Snippets in NeoVim VIMRC" "r-markdown-code-snippets-in-neovim-vimrc.html" #Sun, 22 Dec 2019 13:45:11 -0800
-AddDescription "Options +Indexes
-Luke Smith's LB 'Lightweight Blog' Script
-tellico library page on site
-Neomutt, Email in the Terminal
-This website bryanjenks.xyz
-Task management with Taskwarrior and Taskell
-LaTeX, RMarkdown, Viking Excavation, and some plans
-R Markdown is superior to LaTeX
-R Markdown Code Snippets in NeoVim VIMRC
-Contributing to LARBS and Surprised by DMENU" "" #Options +IndexesSun, 08 Dec 2019 16:55:27 -0800Sun, 08 Dec 2019 22:28:26 -0800Mon, 09 Dec 2019 18:57:54 -0800Mon, 09 Dec 2019 18:57:59 -0800Mon, 09 Dec 2019 18:58:01 -0800Wed, 18 Dec 2019 23:41:27 -0800Sat, 21 Dec 2019 21:50:28 -0800Sun, 22 Dec 2019 13:45:11 -0800
-AddDescription "Contributing to LARBS and Surprised by DMENU" "contributing-to-larbs-and-surprised-by-dmenu.html" #Tue, 24 Dec 2019 05:29:16 -0800
+AddDescription "New Website Page: 'Works'" "new-website-page-works.html" #Thu, 27 Feb 2020 18:34:18 -0800
