@@ -1,2 +1,3 @@
 Options +Indexes
 AddDescription "New Website Page: 'Works'" "new-website-page-works.html" #Thu, 27 Feb 2020 18:34:18 -0800
+AddDescription "RStudio::conf Videos and Shiny" "rstudioconf-videos-and-shiny.html"
