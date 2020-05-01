@@ -154,7 +154,7 @@ nav
 		& a
 		float: left
 		color: black
-		padding: 14px 16px
+		padding: 4px 6px
 		text-decoration: none
 		display: block
 		text-align: center
@@ -176,6 +176,11 @@ nav
 
 		&.active
 			background-color: $gruvboxColorGreen
+
+.rssfeed
+	background-color: $gruvboxColorOrange
+	color: $gruvboxColorForeground
+	font-weight: bold
 
 html
 	padding-bottom: 100px
@@ -206,7 +211,6 @@ body
 
 	& ul
 		margin-left: 20px
-
 
 /* The content above the blogposts */
 #pageHeader
@@ -323,11 +327,6 @@ pre
 	padding: 5px
 	display: block
 
-.rssfeed
-	background-color: $gruvboxColorOrange
-	color: $gruvboxColorForeground
-	font-weight: bold
-
 .rss
 	color: $gruvboxColorOrange
 	font-weight: bold
@@ -365,111 +364,82 @@ pre
 	& a
 		color: $gruvboxColorBackground
 
-/* Library Table*/
-body
-	& table
-		border: 1px solid $gruvboxColorBackground
+/* Leather Working Page */
+#leathervid
+	margin-top: 5%
+	margin-bottom: 15%
 
-		& h4
-			margin-left: auto
-			margin-right: auto
+* 
+	box-sizing: border-box
 
-		& thead
-			border: 1px solid $gruvboxColorBackground
+.slideshow-container 
+	max-width: 1000px
+	position: relative
+	margin: auto
 
-			& tr
-				cursor: pointer
-				border: 1px solid $gruvboxColorBackground
+.mySlides 
+	display: none
 
-			& th
-				color: $gruvboxColorForeground
-				border: 1px solid $gruvboxColorBackground
+.prev, .next 
+	cursor: pointer
+	position: absolute
+	top: 50%
+	width: auto
+	margin-top: -22px
+	padding: 16px
+	color: white
+	font-weight: bold
+	font-size: 18px
+	transition: 0.6s ease
+	border-radius: 0 3px 3px 0
+	user-select: none
 
-	& td.groupname
-		margin-top: 10px
-		margin-bottom: 2px
-		padding-left: 4px
-		background: $gruvboxColorBackground
-		font-size: 1.1em
-		font-weight: bolder
-		color: $gruvboxColorForeground
-		border: 1px solid $gruvboxColorBackground
+.next 
+	right: 0
+	border-radius: 3px 0 0 3px
 
-	&th
-		color: $gruvboxColorForeground
-		background-color: $gruvboxColorBackground
-		border: 1px solid $gruvboxColorBackground
-		font-size: 1.1em
-		font-weight: bold
-		padding-left: 4px
-		padding-right: 4px
+.prev:hover, .next:hover 
+	background-color: rgba(0,0,0,0.8)
 
-	& tr
-		border: 1px solid $gruvboxColorBackground
+.text 
+	color: #f2f2f2
+	font-size: 15px
+	padding: 8px 12px
+	position: absolute
+	bottom: 8px
+	width: 100%
+	text-align: center
 
-		&.entry0
-			background-color: $gruvboxColorBackgroundOne
-			border: 1px solid $gruvboxColorBackground
+.numbertext 
+	color: #f2f2f2
+	font-size: 12px
+	padding: 8px 12px
+	position: absolute
+	top: 0
 
-		&.entry1
-			background-color: $gruvboxColorBackgroundTwo
-			border: 1px solid $gruvboxColorBackground
+.dot 
+	cursor: pointer
+	height: 15px
+	width: 15px
+	margin: 0 2px
+	background-color: #bbb
+	border-radius: 50%
+	display: inline-block
+	transition: background-color 0.6s ease
 
-		&.hidden
-			display: none
+.active, .dot:hover 
+	background-color: #717171
 
-		&.groupEntry1
-			background-color: $gruvboxColorBackgroundOne
-			border: 1px solid $gruvboxColorBackground
+.fade 
+  -webkit-animation-name: fade
+  -webkit-animation-duration: 1.5s
+  animation-name: fade
+  animation-duration: 1.5s
 
-	& td
-		border: 1px solid $gruvboxColorBackground
+@-webkit-keyframes fade 
+  from {opacity: .4}
+  to {opacity: 1}
 
-		&.field
-			margin-left: 0px
-			margin-right: 0px
-			padding-left: 5px
-			padding-right: 5px
-			border: 1px solid $gruvboxColorBackground
-			text-align: left
-
-		color: $gruvboxColorForeground
-
-a.sortheader
-	text-decoration: none
-
-#headerblock
-	padding-top: 10px
-	margin-bottom: 10px
-	border-bottom: 1px solid black
-	overflow: auto
-
-h1.colltitle
-	padding: 4px
-	font-size: 2em
-	margin: 0px
-
-span.subtitle
-	margin-left: 20px
-	font-size: 0.8em
-
-form
-	margin: 5px 0 0 0
-	float: right
-
-#searchText
-	background-color: $gruvboxColorBackground
-	color: $gruvboxColorForeground
-
-input
-	padding: 0
-	margin: 0 0 4px 4px
-
-.button
-	padding: 5px
-	border-radius: 10px
-	margin: 0 0 4px 4px
-	background-color: $gruvboxColorBackground
-	color: $gruvboxColorForeground
-
-/* End Library Table*/
+@keyframes fade 
+  from {opacity: .4}
+  to {opacity: 1}

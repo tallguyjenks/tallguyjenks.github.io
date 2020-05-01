@@ -125,7 +125,7 @@ nav .dropdown:hover .dropdown-content {
 nav div.dropdown-content {
   float: left;
   color: black;
-  padding: 14px 16px;
+  padding: 4px 6px;
   text-decoration: none;
   display: block;
   text-align: center;
@@ -150,6 +150,12 @@ nav a:hover {
 
 nav a.active {
   background-color: #98981a;
+}
+
+.rssfeed {
+  background-color: #d65d0e;
+  color: #ebdbb2;
+  font-weight: bold;
 }
 
 html {
@@ -325,12 +331,6 @@ pre {
   display: block;
 }
 
-.rssfeed {
-  background-color: #d65d0e;
-  color: #ebdbb2;
-  font-weight: bold;
-}
-
 .rss {
   color: #d65d0e;
   font-weight: bold;
@@ -376,132 +376,111 @@ pre {
   color: #282828;
 }
 
-/* Library Table*/
-body table {
-  border: 1px solid #282828;
+/* Leather Working Page */
+#leathervid {
+  margin-top: 5%;
+  margin-bottom: 15%;
 }
 
-body table h4 {
-  margin-left: auto;
-  margin-right: auto;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-body table thead {
-  border: 1px solid #282828;
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
 
-body table thead tr {
-  cursor: pointer;
-  border: 1px solid #282828;
-}
-
-body table thead th {
-  color: #ebdbb2;
-  border: 1px solid #282828;
-}
-
-body td.groupname {
-  margin-top: 10px;
-  margin-bottom: 2px;
-  padding-left: 4px;
-  background: #282828;
-  font-size: 1.1em;
-  font-weight: bolder;
-  color: #ebdbb2;
-  border: 1px solid #282828;
-}
-
-bodyth {
-  color: #ebdbb2;
-  background-color: #282828;
-  border: 1px solid #282828;
-  font-size: 1.1em;
-  font-weight: bold;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-
-body tr {
-  border: 1px solid #282828;
-}
-
-body tr.entry0 {
-  background-color: #3c3836;
-  border: 1px solid #282828;
-}
-
-body tr.entry1 {
-  background-color: #504945;
-  border: 1px solid #282828;
-}
-
-body tr.hidden {
+.mySlides {
   display: none;
 }
 
-body tr.groupEntry1 {
-  background-color: #3c3836;
-  border: 1px solid #282828;
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
-body td {
-  border: 1px solid #282828;
-  color: #ebdbb2;
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
-body td.field {
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border: 1px solid #282828;
-  text-align: left;
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-a.sortheader {
-  text-decoration: none;
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
 
-#headerblock {
-  padding-top: 10px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid black;
-  overflow: auto;
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
-h1.colltitle {
-  padding: 4px;
-  font-size: 2em;
-  margin: 0px;
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
 }
 
-span.subtitle {
-  margin-left: 20px;
-  font-size: 0.8em;
+.active, .dot:hover {
+  background-color: #717171;
 }
 
-form {
-  margin: 5px 0 0 0;
-  float: right;
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
-#searchText {
-  background-color: #282828;
-  color: #ebdbb2;
+@-webkit-keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-input {
-  padding: 0;
-  margin: 0 0 4px 4px;
+@keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
 }
-
-.button {
-  padding: 5px;
-  border-radius: 10px;
-  margin: 0 0 4px 4px;
-  background-color: #282828;
-  color: #ebdbb2;
-}
-
-/* End Library Table*/
 /*# sourceMappingURL=index.css.map */
