@@ -324,7 +324,7 @@ pre {
   display: block;
 }
 
-#rss {
+.rssfeed {
   background-color: #d65d0e;
   color: #ebdbb2;
   font-weight: bold;
