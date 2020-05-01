@@ -5,18 +5,27 @@
 	<meta charset="utf-8"/>
 	<title>Blog Index</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<link rel="stylesheet" type="text/css" href="/sass/index.css"/> 
+	<link rel="stylesheet" type="text/css" href="/sass/index.css"/>
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
 	<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 <!-- Navigation Bar -->
 <nav>
 	<a href="/index.html">Home</a>
-	<a class="active" href="/blog.html">Blog</a>
+    <div class="dropdown">
+        <a class="active" href="/blog.html">Blog Index<i class="fa fa-caret-down"></i></a>
+        <div class="dropdown-content">
+          <a href="/blog.html">Blog</a>
+          <a class="active" href="/blogindex.html">Blog Index</a>
+		  <a id="rss" href="/rss.xml">RSS</a>
+        </div>
+    </div>
 	<a href="/library.html">Library</a>
 	<a href="/works.html">Works</a>
+		<a href="/business.html">Business</a>
 </nav>
 
 <!-- Content Section -->
@@ -43,12 +52,12 @@
 
 <h2 class="blogIndex">May 2020</h2>
 <ul class="blogIndex">
- <!-- LB --> 
+ <!-- LB -->
 </ul>
 
 <h2 class="blogIndex">April 2020</h2>
 <ul class="blogIndex">
-<li>2020 Apr 30 &ndash; <a href="blog/rstudioconf-videos-and-shiny.html">RStudio::conf Videos and Shiny</a></li> 
+<li>2020 Apr 30 &ndash; <a href="blog/rstudioconf-videos-and-shiny.html">RStudio::conf Videos and Shiny</a></li>
 </ul>
 
 <h2 class="blogIndex">February 2020</h2>

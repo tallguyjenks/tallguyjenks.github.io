@@ -9,6 +9,7 @@
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
 	<link rel="icon" href="/favicon.ico" type="image/x-icon"/>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.11/c3.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -16,9 +17,17 @@
 <!-- Navigation Bar -->
 	<nav>
 		<a href="/index.html">Home</a>
-		<a href="/blog.html">Blog</a>
+		<div class="dropdown">
+			<a href="/blog.html">Blog <i class="fa fa-caret-down"></i></a>
+			<div class="dropdown-content">
+				<a href="/blog.html">Blog</a>
+				<a href="/blogindex.html">Blog Index</a>
+				<a id="rss" href="/rss.xml">RSS</a>
+			</div>
+		</div>
 		<a class="active" href="/library.html">Library</a>
 		<a href="/works.html">Works</a>
+		<a href="/business.html">Business</a>
 	</nav>
 
 <!-- Content -->
