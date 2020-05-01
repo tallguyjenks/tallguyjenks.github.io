@@ -119,6 +119,7 @@ nav .dropdown .dropdown-content {
 
 nav .dropdown:hover .dropdown-content {
   display: block;
+  margin: 45px 0 0 0;
 }
 
 nav div.dropdown-content {
