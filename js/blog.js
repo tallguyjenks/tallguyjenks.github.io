@@ -17,6 +17,9 @@ var chart = c3.generate({
             '2020': '#458588', //Blue
         },
     },
+    legend: {
+        position: 'right'
+    },
     zoom: {
         enabled: true
     },
