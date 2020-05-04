@@ -28,14 +28,11 @@ var chart = c3.generate({
     },
 });
 
-//JQuery to Toggle Chart hiding
+// Custom Function Immitating JQuery to Toggle Chart hiding
+function _(selector){return document.querySelectorAll(selector)}
 
-$(document).ready(function(){
-    $("#chartToggle").click(function(){
-        $("#chart").slideToggle();
+_(document).ready(function(){
+    _("#chartToggle").click(function(){
+        _("#chart").slideToggle();
     })
 });
-
-
-
-
