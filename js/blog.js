@@ -29,10 +29,9 @@ var chart = c3.generate({
 });
 
 // Custom Function Immitating JQuery to Toggle Chart hiding
-function _(selector){return document.querySelectorAll(selector)}
 
-_(document).ready(function(){
-    _("#chartToggle").click(function(){
-        _("#chart").slideToggle();
+$(document).ready(function(){
+    $("#chartToggle").click(function(){
+        $("#chart").slideToggle();
     })
 });
