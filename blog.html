@@ -62,6 +62,35 @@
 <!-- Blog Entries	{post} for a new entry-->
 <!-- LB -->
 <div class='entry'>
+<h2 id='youtube-subscriber-i3-blocks-module'>YouTube Subscriber i3 Blocks Module</h2>
+<p><small>[<a href='#youtube-subscriber-i3-blocks-module'>link</a>&mdash;<a href='blog/youtube-subscriber-i3-blocks-module.html'>standalone</a>]</small></p>
+<br/>
+<p>This was a fun little project spurred on by my compulsive need to refresh my subscriber count on YouTube. Now i can thankfully just look at my status bar instead of having to open a browser to get the information. This was all accomplished but using <code>curl</code> to get the html of my YouTube channel page, then using <code>grep</code> to pull out the line with <em>subscribers</em> on it and then using <code>awk</code> a couple times to parse and pull out that specific value.</p>
+<br>
+<p>The code for this is simple:
+<br>
+<code>
+<br>
+<span style="color: #458588;">#!/usr/bin/env sh</span>
+<br>
+<br>
+<span style="color: #689d6a">SUBS</span><span style="color: #ffffff">=</span><span style="color: #b16286">"$(curl -s https://www.youtube.com/channel/UCfhSB16X9MXhzSFe_H7XbHg</span> | grep <span style="color: #b16286">-i</span> "<span style="color: #cc241d">subscribers</span>" | <span style="color: #b16286">awk -F\&gt;</span> '<span style="color: #cc241d">{print $19}</span>' | <span style="color: #b16286">awk -F\&lt;</span> '<span style="color: #cc241d">{print $1}</span>'<span style="color: #b16286">)</span>"
+<br>
+<br>
+printf <span style="color: #b16286">-v</span> MSG "<span style="color: #cc241d">:%s</span>" "<span style="color: #b16286">$SUBS</span>"
+<br>
+<br>
+echo "<span style="color: #b16286">$MSG</span>"
+</code>
+<br>
+<br>
+It was a fun quick project that allowed me to make another custom block, but it also was driven by a practical purpose. Constantly inspiring to see the crazy stuff that bash and the command line can accomplish.
+</p>
+<p>You can watch the video for this post <a target="_blank" href="https://www.youtube.com/watch?v=nS24LiH-9pw">[HERE]</a></p>
+<br/>
+<p><em>Wed, 06 May 2020 22:59:58 -0700</em></p>
+</div>
+<div class='entry'>
 <h2 id='how-i-configure-newsboat-for-all-my-content-in-rss'>How I Configure Newsboat For All My Content In RSS</h2>
 <p><small>[<a href='#how-i-configure-newsboat-for-all-my-content-in-rss'>link</a>&mdash;<a href='blog/how-i-configure-newsboat-for-all-my-content-in-rss.html'>standalone</a>]</small></p>
 <br/>
