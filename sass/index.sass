@@ -105,9 +105,9 @@ input, select
 // |_|	\___/|_|	|_| |_| |_|\__,_|\__|\__|_|_| |_|\__, |
 //												 |___/
 
-$gruvboxColorBackground: #282828
-$gruvboxColorBackgroundOne: #3c3836
-$gruvboxColorBackgroundTwo: #504945
+$gruvboxColorBackground: #1d2021
+$gruvboxColorBackgroundOne: #282828
+$gruvboxColorBackgroundTwo: #3c3836
 $gruvboxColorForeground: #ebdbb2
 $gruvboxColorRed: #cc241d
 $gruvboxColorGreen: #98981a
@@ -124,6 +124,7 @@ $gruvboxColorPurpleHalf: #d3869b
 $gruvboxColorAquaHalf: #8ec07c
 $gruvboxColorOrangeHalf: #fe8019
 $gruvboxColorGray: #a89984
+$gruvboxColorDarkYellow: #b57614
 
 /* The Navigation Bar */
 nav
@@ -224,7 +225,7 @@ div.entry
 	padding: 10px
 	border-radius: 0 10px 30px 0
 	margin-bottom: 20px
-	background-color: #2a2a35
+	background-color: #282828
 	border-left: 10px solid $gruvboxColorBlue
 
 	& h2
@@ -256,15 +257,15 @@ div.entry
 .sidepanel
 	float: left
 	max-width: 300px
-	background-color: #2a2a35
+	background-color: $gruvboxColorBackgroundOne
 	padding: 2px
 	border-radius: 0 10px 30px 0
 
 .sidepanel a
-	color: #85631b
+	color:	$gruvboxColorDarkYellow
 
 .sidepanel a:hover
-	color: #d89e23
+	color: $gruvboxColorYellowHalf 
 
 .sidepanel ul li
 	font-size: 20px
@@ -276,7 +277,7 @@ div.entry
 	list-style: none
 
 a:hover img
-	background: #fe8019
+	background: $gruvboxColorOrangeHalf
 
 li img
 	height: 1.25em
@@ -287,7 +288,7 @@ h1 img
 h3 img
 	height: 1em
 
-	/* The two panels on the main page: */
+/* The two panels on the main page: */
 
 h2
 	&.blogIndex
@@ -345,7 +346,7 @@ pre
 		font-weight: bold
 		background-color: $gruvboxColorBackgroundTwo
 		border-radius: 10px
-		width: 80px
+		width: 100px
 		padding-bottom: 10px
 
 		&:hover

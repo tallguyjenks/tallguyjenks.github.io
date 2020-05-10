@@ -97,7 +97,7 @@ input, select {
 nav {
   margin: -30px 0 0 0;
   padding: 0;
-  background-color: #3c3836;
+  background-color: #282828;
   overflow: hidden;
   margin-bottom: 5px;
 }
@@ -110,7 +110,7 @@ nav .dropdown {
 nav .dropdown .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #504945;
+  background-color: #3c3836;
   min-width: 160px;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -138,14 +138,14 @@ nav a {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  background-color: #3c3836;
+  background-color: #282828;
   position: sticky;
   position: -webkit-sticky;
 }
 
 nav a:hover {
   background-color: #689d6a;
-  color: #504945;
+  color: #3c3836;
 }
 
 nav a.active {
@@ -162,11 +162,11 @@ html {
   padding-bottom: 100px;
   color: #458588;
   font-family: sans-serif;
-  background-color: #282828;
+  background-color: #1d2021;
 }
 
 body {
-  background-color: #282828;
+  background-color: #1d2021;
   max-width: 1050px;
   margin-left: auto;
   margin-right: auto;
@@ -206,7 +206,7 @@ div.entry {
   padding: 10px;
   border-radius: 0 10px 30px 0;
   margin-bottom: 20px;
-  background-color: #2a2a35;
+  background-color: #282828;
   border-left: 10px solid #458588;
 }
 
@@ -245,17 +245,17 @@ div.entry ul {
 .sidepanel {
   float: left;
   max-width: 300px;
-  background-color: #2a2a35;
+  background-color: #282828;
   padding: 2px;
   border-radius: 0 10px 30px 0;
 }
 
 .sidepanel a {
-  color: #85631b;
+  color: #b57614;
 }
 
 .sidepanel a:hover {
-  color: #d89e23;
+  color: #fabd2f;
 }
 
 .sidepanel ul li {
@@ -283,9 +283,9 @@ h1 img {
 
 h3 img {
   height: 1em;
-  /* The two panels on the main page: */
 }
 
+/* The two panels on the main page: */
 h2.blogIndex {
   color: #d79a21;
   font-weight: bold;
@@ -324,8 +324,8 @@ code {
 }
 
 pre {
-  background: #3c3836;
-  border: 1px solid #504945;
+  background: #282828;
+  border: 1px solid #3c3836;
   border-radius: 4px;
   padding: 5px;
   display: block;
@@ -339,19 +339,19 @@ pre {
 #chart {
   height: 150px;
   padding-top: 10px;
-  background-color: #504945;
-  border-top: 5px solid #282828;
-  color: #282828;
+  background-color: #3c3836;
+  border-top: 5px solid #1d2021;
+  color: #1d2021;
 }
 
 #chartToggle {
-  margin-top: 5px solid #282828;
+  margin-top: 5px solid #1d2021;
   color: #ebdbb2;
   font-size: 25px;
   font-weight: bold;
-  background-color: #504945;
+  background-color: #3c3836;
   border-radius: 10px;
-  width: 80px;
+  width: 100px;
   padding-bottom: 10px;
 }
 
@@ -364,16 +364,16 @@ pre {
 }
 
 .c3-tooltip td {
-  color: #282828;
+  color: #1d2021;
   font-weight: bold;
 }
 
 #attrib {
-  color: #282828;
+  color: #1d2021;
 }
 
 #attrib a {
-  color: #282828;
+  color: #1d2021;
 }
 
 /* Leather Working Page */
