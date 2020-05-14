@@ -200,7 +200,6 @@ It was a fun quick project that allowed me to make another custom block, but it 
 <p>At work i've basically written a book with the <code>R</code> package <code>Bookdown</code> on a proprietary computer language we use, but beyond that project and some one off assignments i've mostly been devoting my time, resources, and money to learning more <code>R</code>. I have spent almost $200 on <code>R</code> books lately and im learning more about the language every day. I have even developed my own <code>R</code> package at work for use in our assignments. Complete with <code>Roxygen2</code> documentation, <code>testthat</code> unit tests, and more. It has been a blast.</p>
 <br>
 <p>Lastly I got a bit obsessed with putting elder futhark nordic runes into my terminal emulator: <b>ST</b>. After figuring out that <b>ST</b> supports UTF&ndash;8 i changed my linux <code>$PS1</code> variable to show my terminal prompt user and host name in elder futhark runes. Now, me knowing that this was possible didn't stop there. No, i wrote a shell script that can read standard input and even a whole file and with tests and a lot of piped <code>sed</code> regex functions i can convert whole files to runes. Now i can work on being able to read them as well as english haha. If this script and the project interest you or you want to check them out, you can do so <a href="https://github.com/tallguyjenks/runes">At This Link</a> Thats all the updates i have right now, keep your eyes on my youtube and github for content :)</p>
-<br>
 ]]></description>
 </item>
 
@@ -217,7 +216,6 @@ It was a fun quick project that allowed me to make another custom block, but it 
 <p>So i absolute adore <code>RMarkdown</code> and recently i noticed a golden opportunity for me to contribute something to LARBS, this meta distribution of Arch Linux that i use and adore. I noticed that when compiling <code>RMarkdown</code> documents to pdf that the conversion through pandoc was <b>very</b> verbose and in <a href="www.lukesmith.xyz">Luke's</a> compiler script that it simple runs an <code>R</code> function that renders the <code>RMarkdown</code> document that i looked into it and that function call in <code>R</code> has a <code>quiet=TRUE</code> option which reduced the verbose messaging from pandoc down to just 3 lines. I put in a pull request and these changes were merged into master within a few hours. it felt really good to actually be able to contribute something back to this system i use and love so much, as well as finally having a real code project where i was able to contribute code instead of just issues to a repo. I talk about this in my video <a href="https://www.youtube.com/watch?v=YQeEjvioEh0">HERE</a>.</p>
 <br>
 <p>In some of my other videos i have shown myself launching applications in the terminal but shell scripts i wrote to launch and disown the parent processes from the terminal window. I had a youtube subscriber/person ask me why i didnt just use <code>DMENU</code> to launch the applications.... I didn't know you could do that... though i should have guessed... so i tried it, and it works for everything, i just activate <code>DMENU</code> and type the name of my program and it finds the executable nad run it. So much easier than my previous process.</p>
-<br>
 ]]></description>
 </item>
 
@@ -233,7 +231,6 @@ It was a fun quick project that allowed me to make another custom block, but it 
 <p>This really came in handy with inserting images in <code>RMarkdown</code> instead of using the markdown syntax for image insertion that i for some reason seem to have such trouble with.</p>
 <br>
 <p>The video on this is <a href="https://youtu.be/N4kv64iJd9A">HERE</a> </p>
-<br>
 ]]></description>
 </item>
 
