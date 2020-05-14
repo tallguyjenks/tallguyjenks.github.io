@@ -78,8 +78,6 @@ It was a fun quick project that allowed me to make another custom block, but it 
 <guid>https://bryanjenks.xyz/blog.html#how-i-configure-newsboat-for-all-my-content-in-rss</guid>
 <pubDate>Sun, 03 May 2020 21:53:33 -0700</pubDate>
 <description><![CDATA[
-</p>
-<br/>
 <p>When I found out about NewsBoat I was immediately interested in the possibilities it presented. I was never too familiar with RSS feeds or what they were but after seeing recommendations on the Art of Manliness blog, and seeing what could be done with NewsBoat I began to get hooked on the idea of minimalist web content consumption. Fast forward and almost a year into using this Arch Linux system, I am still learning a lot every day, but I dove in deeper into NewsBoat configuration and functionality and now I am really happy with where I'm at and where I see myself going with this.</p>
 <br>
 <p>Now in my NewsBoat url's file I have all my twitter feeds, sub reddits, YouTube channels, blogs, academic journals, you name it! I now have everything in NewsBoat and with some of the macros and the mappings I'm able to consume all my media through NewsBoat completely in the terminal and with minimal programs so that I don't have to rely on a web browser 100% of the time.</p>
@@ -140,8 +138,6 @@ It was a fun quick project that allowed me to make another custom block, but it 
 <guid>https://bryanjenks.xyz/blog.html#ligatures-and-emoji-in-the-suckless-simple-terminal</guid>
 <pubDate>Sat, 02 May 2020 20:20:44 -0700</pubDate>
 <description><![CDATA[
-</p>
-<br/>
 <p>I decided to finally mess around with the Suckless Simple Terminal <strong>ST</strong>, and add the latest work from <a target="_blank" href="www.lukesmith.xyz">luke smith</a> to get color emoji support in ST. I forked Luke's repo, then installed the necessary dependency <code>libxft-bgra</code> for the emoji's and we were off to the races.</p>
 <br>
 <p>Next I <code>sudo make install</code> so I had the latest build of ST from Luke with the emoji support and then I made a branch on the repo to test out the  ligatures before committing to the change. Next I manually did the patch as there was a diff made for the patch but knowing how much stuff Luke put into his build of ST I didn't want to deal with the headache of dealing with merge conflicts so I just manually added the code to the repo. I also had to install a new <code>C</code> library called <code>harfbuzz</code> and add that in.</p>
