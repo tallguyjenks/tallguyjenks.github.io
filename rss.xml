@@ -138,7 +138,7 @@ It was a fun quick project that allowed me to make another custom block, but it 
 <guid>https://bryanjenks.xyz/blog.html#ligatures-and-emoji-in-the-suckless-simple-terminal</guid>
 <pubDate>Sat, 02 May 2020 20:20:44 -0700</pubDate>
 <description><![CDATA[
-<p>I decided to finally mess around with the Suckless Simple Terminal <strong>ST</strong>, and add the latest work from <a target="_blank" href="www.lukesmith.xyz">luke smith</a> to get color emoji support in ST. I forked Luke's repo, then installed the necessary dependency <code>libxft-bgra</code> for the emoji's and we were off to the races.</p>
+<p>I decided to finally mess around with the Suckless Simple Terminal <strong>ST</strong>, and add the latest work from luke smith to get color emoji support in ST. I forked Luke's repo, then installed the necessary dependency <code>libxft-bgra</code> for the emoji's and we were off to the races.</p>
 <br>
 <p>Next I <code>sudo make install</code> so I had the latest build of ST from Luke with the emoji support and then I made a branch on the repo to test out the  ligatures before committing to the change. Next I manually did the patch as there was a diff made for the patch but knowing how much stuff Luke put into his build of ST I didn't want to deal with the headache of dealing with merge conflicts so I just manually added the code to the repo. I also had to install a new <code>C</code> library called <code>harfbuzz</code> and add that in.</p>
 <br>
@@ -213,7 +213,7 @@ It was a fun quick project that allowed me to make another custom block, but it 
 <guid>https://bryanjenks.xyz/blog.html#contributing-to-larbs-and-surprised-by-dmenu</guid>
 <pubDate>Tue, 24 Dec 2019 05:29:16 -0800</pubDate>
 <description><![CDATA[
-<p>So i absolute adore <code>RMarkdown</code> and recently i noticed a golden opportunity for me to contribute something to LARBS, this meta distribution of Arch Linux that i use and adore. I noticed that when compiling <code>RMarkdown</code> documents to pdf that the conversion through pandoc was <b>very</b> verbose and in <a href="www.lukesmith.xyz">Luke's</a> compiler script that it simple runs an <code>R</code> function that renders the <code>RMarkdown</code> document that i looked into it and that function call in <code>R</code> has a <code>quiet=TRUE</code> option which reduced the verbose messaging from pandoc down to just 3 lines. I put in a pull request and these changes were merged into master within a few hours. it felt really good to actually be able to contribute something back to this system i use and love so much, as well as finally having a real code project where i was able to contribute code instead of just issues to a repo. I talk about this in my video <a href="https://www.youtube.com/watch?v=YQeEjvioEh0">HERE</a>.</p>
+<p>So i absolute adore <code>RMarkdown</code> and recently i noticed a golden opportunity for me to contribute something to LARBS, this meta distribution of Arch Linux that i use and adore. I noticed that when compiling <code>RMarkdown</code> documents to pdf that the conversion through pandoc was <b>very</b> verbose and in Luke's compiler script that it simple runs an <code>R</code> function that renders the <code>RMarkdown</code> document that i looked into it and that function call in <code>R</code> has a <code>quiet=TRUE</code> option which reduced the verbose messaging from pandoc down to just 3 lines. I put in a pull request and these changes were merged into master within a few hours. it felt really good to actually be able to contribute something back to this system i use and love so much, as well as finally having a real code project where i was able to contribute code instead of just issues to a repo. I talk about this in my video <a href="https://www.youtube.com/watch?v=YQeEjvioEh0">HERE</a>.</p>
 <br>
 <p>In some of my other videos i have shown myself launching applications in the terminal but shell scripts i wrote to launch and disown the parent processes from the terminal window. I had a youtube subscriber/person ask me why i didnt just use <code>DMENU</code> to launch the applications.... I didn't know you could do that... though i should have guessed... so i tried it, and it works for everything, i just activate <code>DMENU</code> and type the name of my program and it finds the executable nad run it. So much easier than my previous process.</p>
 ]]></description>
@@ -316,7 +316,7 @@ It was a fun quick project that allowed me to make another custom block, but it 
 <guid>https://bryanjenks.xyz/blog.html#latex-rmarkdown-viking-excavation-and-some-plans</guid>
 <pubDate>Wed, 18 Dec 2019 23:41:27 -0800</pubDate>
 <description><![CDATA[
-<p>So i've been watching some of <a href="www.lukesmith.xyz">Luke's</a> videos on <code>LaTeX</code> and was writing some notes i was taking on a book about a viking excavation site and their findings exclusively in <code>LaTeX</code>. So this document is all about viking leather work and since i also run a leather working business and perform as a viking at local renaissance faires, i want my skit as a merchant to be time period correct leather work.</p>
+<p>So i've been watching some of Luke's videos on <code>LaTeX</code> and was writing some notes i was taking on a book about a viking excavation site and their findings exclusively in <code>LaTeX</code>. So this document is all about viking leather work and since i also run a leather working business and perform as a viking at local renaissance faires, i want my skit as a merchant to be time period correct leather work.</p>
 <br/>
 
 <p>I Digress, i was writing all my pertinant findings in <code>LaTeX</code> and as far as i had gotten i liked it well enough, but Luke was right, it is a hefty install, and the learning curve is steep. There are a few things like macros in <code>LaTeX</code> i cant really imagine replicating at this point, but for most of my purposes, ill probably never need them.</p>
@@ -372,7 +372,7 @@ It was a fun quick project that allowed me to make another custom block, but it 
 <guid>https://bryanjenks.xyz/blog.html#neomutt-email-in-the-terminal</guid>
 <pubDate>Mon, 09 Dec 2019 18:57:54 -0800</pubDate>
 <description><![CDATA[
-<p>So i found neomutt and in general all things command line/terminal/larbs/linux, through <a href="www.lukesmith.xyz">Luke Smith</a> and i have come to adore neomutt.</p><br/>
+<p>So i found neomutt and in general all things command line/terminal/larbs/linux, through Luke Smith and i have come to adore neomutt.</p><br/>
 
 <p>Neomutt makes my email so much easier to manage while on the same point making its faster, and minimizing my distraction with it because its just a text based application in the terminal so i dont get slowed down by loading internet resources or tracking cookies, and im more likely to just write my email and get on with my life. It's a kind of forced simplicity through digital minimalism.</p><br/>
 
@@ -402,7 +402,7 @@ It was a fun quick project that allowed me to make another custom block, but it 
 <guid>https://www.bryanjenks.xyz/blog.html#luke-smiths-lb-lightweight-blog-script</guid>
 <pubDate>Sun, 08 Dec 2019 16:55:27 -0800</pubDate>
 <description><![CDATA[
-<p>So i finally got around to looking into <a href="www.lukesmith.xyz">Luke</a>'s <code>LB</code> script for blogging on a custom website like his. I gotta say that it <b>IS</b> so much nicer to use that script than doing what i was doing before...</p>
+<p>So i finally got around to looking into Luke's <code>LB</code> script for blogging on a custom website like his. I gotta say that it <b>IS</b> so much nicer to use that script than doing what i was doing before...</p>
 
 <p>Before <code>LB</code> this was my process:</p>
 <br/>
@@ -581,7 +581,7 @@ It was a fun quick project that allowed me to make another custom block, but it 
         At home i am looking at more Javascript type stuff like higher order array methods, and ES6 related functions to see if i can test them in my agency's software and take advantage of them, and also wanting to see if a framework like Vue.js could potentially work for the purposes of what is needed. I also want to try my hand at TDD (Test Driven Development) and develop unit tests for our Javascript files and see if we can make a very robust system for testing and refactoring.
     </p><br/>
     <p>
-        At home i am studying more Linux things as im running an arch system thanks to <a href='http://www.lukesmith.xyz'>Luke Smith</a>'s <a href='http://www.larbs.xyz'>LARBS script</a>. I love the system that luke developed and ive been adding and removing things to it to suit my needs as i go and ive been loving it. Ive completely migrated from my windows system to this system and terminal applications. With terminal applications came the fascination with lower level terminal programming and console related applications, so ive been now attempting to learn C-lang, and to better use my current system ive also been studying Bash scripting and general commands and this whole site is really inspired by luke's and the ability to have an RSS feed with these posts in them to read in newsboat.
+        At home i am studying more Linux things as im running an arch system thanks to Luke Smith's LARBS script. I love the system that luke developed and ive been adding and removing things to it to suit my needs as i go and ive been loving it. Ive completely migrated from my windows system to this system and terminal applications. With terminal applications came the fascination with lower level terminal programming and console related applications, so ive been now attempting to learn C-lang, and to better use my current system ive also been studying Bash scripting and general commands and this whole site is really inspired by luke's and the ability to have an RSS feed with these posts in them to read in newsboat.
     </p><br/>
     <p>
         Well i have a lot going on lately but i hope to make more of these posts and enjoy this process a time goes on. some of the next tasks are to fix some things on this site, and once this site is really up and running, i plan to leave facebook and hopefully experience more digital minimalism. I'd also like to just feel like i can read more and work on my leather work projects without always being distracted by the digital world, but knowing nerdy me this is an impossibility. Well for now thats all, and i will return with further ramblings in the future!
