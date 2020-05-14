@@ -10,7 +10,7 @@
 <atom:link href="https://www.bryanjenks.xyz/rss.xml" rel="self" type="application/rss+xml" />
 <image>
 <title>Bryan's Rambles</title>
-<url>https://www.bryanjenks.xyz</url>
+<url>https://www.bryanjenks.xyz/favicon.ico</url>
 <link>https://www.bryanjenks.xyz/rss.xml</link>
 </image>
 <!-- {post} to add a new post-->
@@ -573,6 +573,7 @@ It was a fun quick project that allowed me to make another custom block, but it 
 <item>
     <title>Hello World!</title>
     <pubDate>Sun, 2019 Nov 10th 19:52 GMT-8</pubDate>
+    <guid>https://www.bryanjenks.xyz/blog/20191110.html</guid>
     <description><![CDATA[
     <p>
         So ive decided to start a blog on this website, and talk about my various doings and interests. To start, what am i currently up to?
